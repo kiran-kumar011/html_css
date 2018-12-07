@@ -1,0 +1,45 @@
+HTML introduction
+
+Structure of a web page
+
+<!DOCTYPE html> 
+This is to tell the browser that this is a HTML5 web page.
+
+=============
+What is tag?
+For each element there will be a opening and closing tags which contains specific elements.
+=============
+
+=============
+What is element?
+An element is contained inside the 'opening and closing tags' of HTML element.
+=============
+
+=============
+What is attribute?
+Anything which is attaching a file from inside the local memory or from external sources is called attributes.
+=============
+
+
+
+<html> Opening and </html> closing tags, 
+Everything inside these tags which are considered part of the html element
+
+<head> and <body>
+Inside html element, we have two more elements called <head> and <body>
+
+<head>
+Inside head element contains all of it's metadata, like the page title any CSS stylesheets, and other thing which are required to render the page.
+
+<title >        </title>
+Within this tag whatever is written will be displayed in the tab of a browser.
+
+<body>     </body
+Inside body element bulk of HTML markup will live in the body element.
+
+<p>  		</p>
+<p> stands for paragraphs anything written content inside the opening and closing will be displayed in web page.
+
+<h1>   </h2>
+<h1> stands for headings where there are six types of differ heading comes with different font size.
+ 
