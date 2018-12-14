@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Positioning</title>
+		<link rel="stylesheet" href="assets/stylesheets/main.css">
+	</head>
+	<body>
+		<!-- first layer of blocks -->
+		<section class="center">
+			<section class="inline-blocks-parent">
+				<h1>Side-by-Side Positioning Demo</h1>
+					<div class="left-block">
+						<p>These two divs are positioned next to one another using <em>display: inline-block</em>
+						</p>
+					</div>
+					<div class="left-block">
+						<p>Notice the space between them. It occurs because of my carriage return in the HTML which I've used to keep the code organised. I've used reset to make insure no elements should have any default margins or padding.(I did add a bottom margin to make ot easier to read.) this space is actually a space character rendered just as it would be between two inline elements.
+						</p>
+					</div>
+			</section>
+			<!-- second layer of blocks -->
+			<section class="inline-blocks-parent">
+				<div class="left-block float-left">
+					<p>These two positioned using<em>float: left.</em>
+					</p>
+				</div>
+				<div class="left-block float-left">
+					<p>You can see that, even though the elements are spaced in the code, the space is not actuall rendered in the page. This may not be a huge deal in these first examples, but...
+					</p>
+				</div>
+			</section>
+			<!-- third layer of the blocks -->
+			<section class="inline-blocks-parent">
+				<div class="left-block half-width">
+					<p>what if I want my side-by-side element to take up the full width of the parent element? I can set the width of each to 50%, right?
+					</p>
+				</div>
+				<div class="left-block half-width">
+					<p>Wrong! because, together,the two inline-block elements will add up to 100% of the available width, but just does'nt account for the space between.
+					</p>
+				</div>
+			</section>
+			<!-- lastlayer of the blocks -->
+			<section class="inline-blocks-parent">
+				<div class="left-block float-left half-width">
+					<p>If I do the same thing with floated elements...</p>
+				</div>
+				<div class="left-block float-left half-width">
+					<p>The two elements are side-by-side just as I intended and fill the entire width of the parent(which, in this case, is the same as the width of the viewport.)
+					</p>
+				</div>
+			</section>
+		</section>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
